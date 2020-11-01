@@ -1,0 +1,3 @@
+[submodule "Fuse_Holders_and_Fuses.pretty"]
+	path = Fuse_Holders_and_Fuses.pretty
+	url = https://github.com/KiCad/Fuse_Holders_and_Fuses.pretty.git

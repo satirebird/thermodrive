@@ -1,0 +1,770 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Varistor RV1
+U 1 1 5F85D58E
+P 7950 2650
+F 0 "RV1" H 8053 2650 50  0000 L CNN
+F 1 "B72210P2271K101" H 8053 2605 50  0001 L CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" V 7880 2650 50  0001 C CNN
+F 3 "~" H 7950 2650 50  0001 C CNN
+	1    7950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5F862A79
+P 8700 3000
+F 0 "J2" H 8780 2992 50  0000 L CNN
+F 1 "Conn_01x06" H 8780 2901 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02706HBLC_1x06_P7.50mm_Horizontal" H 8700 3000 50  0001 C CNN
+F 3 "~" H 8700 3000 50  0001 C CNN
+	1    8700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5F8675B8
+P 8700 1800
+F 0 "J1" H 8780 1842 50  0000 L CNN
+F 1 "Conn_01x03" H 8780 1751 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02703HBLC_1x03_P7.50mm_Horizontal" H 8700 1800 50  0001 C CNN
+F 3 "~" H 8700 1800 50  0001 C CNN
+	1    8700 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2800 7950 2800
+Connection ~ 7950 2800
+Wire Wire Line
+	7750 1900 7750 2500
+Wire Wire Line
+	7750 2500 7950 2500
+Wire Wire Line
+	7750 2500 7750 2600
+Connection ~ 7750 2500
+Wire Wire Line
+	7500 2600 7750 2600
+Connection ~ 7750 2600
+Wire Wire Line
+	7750 2600 7750 3000
+Wire Wire Line
+	7500 2800 7950 2800
+Wire Wire Line
+	7500 3100 7750 3100
+Wire Wire Line
+	7500 3300 7950 3300
+Connection ~ 7750 3100
+Wire Wire Line
+	7750 3100 7750 3500
+$Comp
+L Device:Varistor RV2
+U 1 1 5F87EA17
+P 7950 3150
+F 0 "RV2" H 8053 3150 50  0000 L CNN
+F 1 "B72210P2271K101" H 8053 3105 50  0001 L CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" V 7880 3150 50  0001 C CNN
+F 3 "~" H 7950 3150 50  0001 C CNN
+	1    7950 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3000 7950 3000
+Connection ~ 7750 3000
+Wire Wire Line
+	7750 3000 7750 3100
+$Comp
+L Device:Varistor RV3
+U 1 1 5F8858A1
+P 7950 3650
+F 0 "RV3" H 8053 3650 50  0000 L CNN
+F 1 "B72210P2271K101" H 8053 3605 50  0001 L CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" V 7880 3650 50  0001 C CNN
+F 3 "~" H 7950 3650 50  0001 C CNN
+	1    7950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3500 7950 3500
+Wire Wire Line
+	7500 3600 7750 3600
+Wire Wire Line
+	7500 3800 7950 3800
+$Comp
+L Device:Varistor RV4
+U 1 1 5F88FCDB
+P 7950 4150
+F 0 "RV4" H 8053 4150 50  0000 L CNN
+F 1 "B72210P2271K101" H 8053 4105 50  0001 L CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" V 7880 4150 50  0001 C CNN
+F 3 "~" H 7950 4150 50  0001 C CNN
+	1    7950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4100 7750 4100
+Wire Wire Line
+	7500 4300 7950 4300
+$Comp
+L Device:Varistor RV5
+U 1 1 5F894513
+P 7950 4650
+F 0 "RV5" H 8053 4650 50  0000 L CNN
+F 1 "B72210P2271K101" H 8053 4605 50  0001 L CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" V 7880 4650 50  0001 C CNN
+F 3 "~" H 7950 4650 50  0001 C CNN
+	1    7950 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4600 7750 4600
+Wire Wire Line
+	7500 4800 7950 4800
+$Comp
+L Device:Varistor RV6
+U 1 1 5F89C615
+P 7950 5150
+F 0 "RV6" H 8053 5150 50  0000 L CNN
+F 1 "B72210P2271K101" H 8053 5105 50  0001 L CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" V 7880 5150 50  0001 C CNN
+F 3 "~" H 7950 5150 50  0001 C CNN
+	1    7950 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 5100 7750 5100
+Wire Wire Line
+	7500 5300 7950 5300
+Wire Wire Line
+	7750 3500 7750 3600
+Connection ~ 7750 3500
+Connection ~ 7750 3600
+Wire Wire Line
+	7750 3600 7750 4000
+Connection ~ 7750 4100
+Wire Wire Line
+	7750 4100 7750 4500
+Connection ~ 7750 4600
+Wire Wire Line
+	7750 4600 7750 5000
+Wire Wire Line
+	7950 4000 7750 4000
+Connection ~ 7750 4000
+Wire Wire Line
+	7750 4000 7750 4100
+Wire Wire Line
+	7950 4500 7750 4500
+Connection ~ 7750 4500
+Wire Wire Line
+	7750 4500 7750 4600
+Wire Wire Line
+	7950 5000 7750 5000
+Connection ~ 7750 5000
+Wire Wire Line
+	7750 5000 7750 5100
+Wire Wire Line
+	7950 3300 8250 3300
+Wire Wire Line
+	8250 3300 8250 2900
+Wire Wire Line
+	8250 2900 8500 2900
+Connection ~ 7950 3300
+Wire Wire Line
+	7950 3800 8300 3800
+Wire Wire Line
+	8300 3800 8300 3000
+Wire Wire Line
+	8300 3000 8500 3000
+Connection ~ 7950 3800
+Wire Wire Line
+	7950 4300 8350 4300
+Wire Wire Line
+	8350 4300 8350 3100
+Wire Wire Line
+	8350 3100 8500 3100
+Connection ~ 7950 4300
+Connection ~ 7950 4800
+Wire Wire Line
+	8400 4800 8400 3200
+Wire Wire Line
+	8400 3200 8500 3200
+Wire Wire Line
+	7950 4800 8400 4800
+Wire Wire Line
+	7950 5300 8450 5300
+Wire Wire Line
+	8450 5300 8450 3300
+Wire Wire Line
+	8450 3300 8500 3300
+Connection ~ 7950 5300
+Text Label 7800 1900 0    50   ~ 0
+NET_L
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5F8B757A
+P 8700 2200
+F 0 "J3" H 8780 2242 50  0000 L CNN
+F 1 "Conn_01x03" H 8780 2151 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type175_RT02703HBLC_1x03_P7.50mm_Horizontal" H 8700 2200 50  0001 C CNN
+F 3 "~" H 8700 2200 50  0001 C CNN
+	1    8700 2200
+	1    0    0    -1  
+$EndComp
+Text Label 7800 2100 0    50   ~ 0
+NET_N
+Wire Wire Line
+	8500 2100 8500 2200
+Connection ~ 8500 2100
+Wire Wire Line
+	8500 2200 8500 2300
+Connection ~ 8500 2200
+$Comp
+L Device:R R1
+U 1 1 5F8CC10E
+P 6400 2800
+F 0 "R1" V 6193 2800 50  0000 C CNN
+F 1 "160" V 6284 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 2800 50  0001 C CNN
+F 3 "~" H 6400 2800 50  0001 C CNN
+	1    6400 2800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F8D4D27
+P 6400 3300
+F 0 "R2" V 6193 3300 50  0000 C CNN
+F 1 "160" V 6284 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 3300 50  0001 C CNN
+F 3 "~" H 6400 3300 50  0001 C CNN
+	1    6400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F8D5E38
+P 6400 3800
+F 0 "R3" V 6193 3800 50  0000 C CNN
+F 1 "160" V 6284 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 3800 50  0001 C CNN
+F 3 "~" H 6400 3800 50  0001 C CNN
+	1    6400 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F8D70C4
+P 6400 4300
+F 0 "R4" V 6193 4300 50  0000 C CNN
+F 1 "160" V 6284 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 4300 50  0001 C CNN
+F 3 "~" H 6400 4300 50  0001 C CNN
+	1    6400 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F8DA989
+P 6400 4800
+F 0 "R5" V 6193 4800 50  0000 C CNN
+F 1 "160" V 6284 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 4800 50  0001 C CNN
+F 3 "~" H 6400 4800 50  0001 C CNN
+	1    6400 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L slib:AQZ204 U1
+U 1 1 5F898064
+P 7200 2700
+F 0 "U1" H 7200 3000 50  0000 C CNN
+F 1 "AQZ204" H 7200 2900 50  0000 C CNN
+F 2 "thermodrive:AQZ-SIL-4" H 7200 2400 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/pvt412a.pdf?fileId=5546d462533600a4015356843e592970" H 7200 2700 50  0001 C CNN
+	1    7200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L slib:AQZ204 U2
+U 1 1 5F8A6546
+P 7200 3200
+F 0 "U2" H 7200 3500 50  0000 C CNN
+F 1 "AQZ204" H 7200 3400 50  0000 C CNN
+F 2 "thermodrive:AQZ-SIL-4" H 7200 2900 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/pvt412a.pdf?fileId=5546d462533600a4015356843e592970" H 7200 3200 50  0001 C CNN
+	1    7200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L slib:AQZ204 U3
+U 1 1 5F8A7727
+P 7200 3700
+F 0 "U3" H 7200 4000 50  0000 C CNN
+F 1 "AQZ204" H 7200 3900 50  0000 C CNN
+F 2 "thermodrive:AQZ-SIL-4" H 7200 3400 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/pvt412a.pdf?fileId=5546d462533600a4015356843e592970" H 7200 3700 50  0001 C CNN
+	1    7200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L slib:AQZ204 U4
+U 1 1 5F8A8563
+P 7200 4200
+F 0 "U4" H 7200 4525 50  0000 C CNN
+F 1 "AQZ204" H 7200 4434 50  0000 C CNN
+F 2 "thermodrive:AQZ-SIL-4" H 7200 3900 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/pvt412a.pdf?fileId=5546d462533600a4015356843e592970" H 7200 4200 50  0001 C CNN
+	1    7200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L slib:AQZ204 U5
+U 1 1 5F8A94F4
+P 7200 4700
+F 0 "U5" H 7200 5000 50  0000 C CNN
+F 1 "AQZ204" H 7200 4900 50  0000 C CNN
+F 2 "thermodrive:AQZ-SIL-4" H 7200 4400 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/pvt412a.pdf?fileId=5546d462533600a4015356843e592970" H 7200 4700 50  0001 C CNN
+	1    7200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L slib:AQZ204 U6
+U 1 1 5F8AFEE7
+P 7200 5200
+F 0 "U6" H 7200 5500 50  0000 C CNN
+F 1 "AQZ204" H 7200 5400 50  0000 C CNN
+F 2 "thermodrive:AQZ-SIL-4" H 7200 4900 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/pvt412a.pdf?fileId=5546d462533600a4015356843e592970" H 7200 5200 50  0001 C CNN
+	1    7200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5F8B3606
+P 8250 1900
+F 0 "F1" V 8053 1900 50  0000 C CNN
+F 1 "PL 112000" V 8144 1900 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 8180 1900 50  0001 C CNN
+F 3 "https://www.reichelt.de/sicherungshalter-feinsicherungen-5x20mm-max-6-3a-250v-pl-112000-p14678.html?&trstct=pol_1&nbc=1" H 8250 1900 50  0001 C CNN
+	1    8250 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Converter_ACDC:IRM-03-3.3 PS1
+U 1 1 5F8C947B
+P 6750 2000
+F 0 "PS1" H 6750 2367 50  0000 C CNN
+F 1 "IRM-03-3.3" H 6750 2276 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT" H 6750 1650 50  0001 C CNN
+F 3 "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF" H 6750 1600 50  0001 C CNN
+	1    6750 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 1900 7150 1900
+Wire Wire Line
+	7150 2100 8500 2100
+$Comp
+L power:GND #PWR0101
+U 1 1 5F8D5160
+P 5950 2200
+F 0 "#PWR0101" H 5950 1950 50  0001 C CNN
+F 1 "GND" H 5955 2027 50  0000 C CNN
+F 2 "" H 5950 2200 50  0001 C CNN
+F 3 "" H 5950 2200 50  0001 C CNN
+	1    5950 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1700 8500 1800
+Connection ~ 8500 1800
+Wire Wire Line
+	8500 1800 8500 1900
+Wire Wire Line
+	8500 1900 8400 1900
+Connection ~ 8500 1900
+Wire Wire Line
+	8100 1900 7750 1900
+Connection ~ 7750 1900
+$Comp
+L Device:C C1
+U 1 1 5F8EA12F
+P 5950 2050
+F 0 "C1" H 6065 2096 50  0000 L CNN
+F 1 "100n" H 6065 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5988 1900 50  0001 C CNN
+F 3 "~" H 5950 2050 50  0001 C CNN
+	1    5950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5F8EA8FA
+P 5950 1900
+F 0 "#PWR0102" H 5950 1750 50  0001 C CNN
+F 1 "+3.3V" H 5965 2028 50  0000 L CNN
+F 2 "" H 5950 1900 50  0001 C CNN
+F 3 "" H 5950 1900 50  0001 C CNN
+	1    5950 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1900 6350 1900
+Connection ~ 5950 1900
+Wire Wire Line
+	6350 2100 6350 2200
+Wire Wire Line
+	6350 2200 5950 2200
+Connection ~ 5950 2200
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5F8F095B
+P 3300 2000
+F 0 "J4" H 3218 2317 50  0000 C CNN
+F 1 "WAGO 734-164" H 3218 2226 50  0000 C CNN
+F 2 "Connector_Wago:Wago_734-164_1x04_P3.50mm_Horizontal" H 3300 2000 50  0001 C CNN
+F 3 "https://www.reichelt.de/print-stiftleiste-mini-rm-3-5-gewinkelt-4-polig-wago-734-164-p45944.html?&trstct=pos_14&nbc=1" H 3300 2000 50  0001 C CNN
+	1    3300 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 5F8F1EF4
+P 3300 4350
+F 0 "J5" H 3218 4867 50  0000 C CNN
+F 1 "WAGO 734-168" H 3218 4776 50  0000 C CNN
+F 2 "Connector_Wago:Wago_734-168_1x08_P3.50mm_Horizontal" H 3300 4350 50  0001 C CNN
+F 3 "https://www.reichelt.de/print-stiftleiste-mini-rm-3-5-gewinkelt-8-polig-wago-734-168-p45947.html?&trstct=pos_15&nbc=1" H 3300 4350 50  0001 C CNN
+	1    3300 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1900 4050 1900
+Wire Wire Line
+	3500 2000 3500 1900
+Connection ~ 3500 1900
+Wire Wire Line
+	3500 2100 3500 2200
+Wire Wire Line
+	3500 2200 4050 2200
+Connection ~ 3500 2200
+$Comp
+L slib:HmIP-MOD-OC8 U7
+U 1 1 5F8ECDFC
+P 4100 4550
+F 0 "U7" H 4800 5450 50  0000 C CNN
+F 1 "HmIP-MOD-OC8" H 5050 5350 50  0000 C CNN
+F 2 "thermodrive:HmIP-MOD-OC8" H 4550 4450 50  0001 C CNN
+F 3 "" H 4100 4550 50  0001 C CNN
+	1    4100 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4050 3850 4050
+Wire Wire Line
+	3500 4150 3850 4150
+Wire Wire Line
+	3500 4250 3850 4250
+Wire Wire Line
+	3500 4350 3850 4350
+Wire Wire Line
+	3500 4450 3850 4450
+Wire Wire Line
+	3500 4550 3850 4550
+Wire Wire Line
+	3500 4650 3850 4650
+Wire Wire Line
+	3500 4750 3850 4750
+Wire Wire Line
+	4100 5150 4200 5150
+Connection ~ 4200 5150
+Wire Wire Line
+	4200 5150 4300 5150
+Connection ~ 4300 5150
+Wire Wire Line
+	4300 5150 4400 5150
+Connection ~ 4400 5150
+Wire Wire Line
+	4400 5150 4500 5150
+Connection ~ 4500 5150
+Wire Wire Line
+	4500 5150 4600 5150
+Connection ~ 4600 5150
+Wire Wire Line
+	4600 5150 4700 5150
+Connection ~ 4700 5150
+Wire Wire Line
+	4700 5150 4800 5150
+Connection ~ 4800 5150
+Wire Wire Line
+	4800 5150 4900 5150
+Connection ~ 4900 5150
+Wire Wire Line
+	4900 5150 5000 5150
+$Comp
+L power:GND #PWR08
+U 1 1 5F904EA3
+P 4100 5150
+F 0 "#PWR08" H 4100 4900 50  0001 C CNN
+F 1 "GND" H 4105 4977 50  0000 C CNN
+F 2 "" H 4100 5150 50  0001 C CNN
+F 3 "" H 4100 5150 50  0001 C CNN
+	1    4100 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4100 5150
+$Comp
+L power:+3.3V #PWR09
+U 1 1 5F905523
+P 4400 3250
+F 0 "#PWR09" H 4400 3100 50  0001 C CNN
+F 1 "+3.3V" H 4415 3378 50  0000 L CNN
+F 2 "" H 4400 3250 50  0001 C CNN
+F 3 "" H 4400 3250 50  0001 C CNN
+	1    4400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP1
+U 1 1 5F909AF7
+P 4400 3450
+F 0 "JP1" V 4446 3362 50  0000 R CNN
+F 1 "Jumper_2_Bridged" V 4355 3362 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4400 3450 50  0001 C CNN
+F 3 "~" H 4400 3450 50  0001 C CNN
+	1    4400 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 2800 5700 4050
+Wire Wire Line
+	5700 4050 5250 4050
+Wire Wire Line
+	5800 3300 5800 4150
+Wire Wire Line
+	5800 4150 5250 4150
+Wire Wire Line
+	5900 3800 5900 4250
+Wire Wire Line
+	5900 4250 5250 4250
+Wire Wire Line
+	5950 4300 5950 4350
+Wire Wire Line
+	5950 4350 5250 4350
+Wire Wire Line
+	5250 4450 5950 4450
+Wire Wire Line
+	5950 4450 5950 4800
+Wire Wire Line
+	5250 4550 5850 4550
+Wire Wire Line
+	5850 4550 5850 5300
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5F91F473
+P 3300 5600
+F 0 "J6" H 3218 5917 50  0000 C CNN
+F 1 "WAGO 734-164" H 3218 5826 50  0000 C CNN
+F 2 "Connector_Wago:Wago_734-164_1x04_P3.50mm_Horizontal" H 3300 5600 50  0001 C CNN
+F 3 "https://www.reichelt.de/print-stiftleiste-mini-rm-3-5-gewinkelt-4-polig-wago-734-164-p45944.html?&trstct=pos_14&nbc=1" H 3300 5600 50  0001 C CNN
+	1    3300 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F91FF78
+P 3500 5800
+F 0 "#PWR01" H 3500 5550 50  0001 C CNN
+F 1 "GND" H 3505 5627 50  0000 C CNN
+F 2 "" H 3500 5800 50  0001 C CNN
+F 3 "" H 3500 5800 50  0001 C CNN
+	1    3500 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5700 5500 5700
+Wire Wire Line
+	5500 5700 5500 4750
+Wire Wire Line
+	5500 4750 5250 4750
+Wire Wire Line
+	5250 4650 5400 4650
+Wire Wire Line
+	5400 4650 5400 5600
+Wire Wire Line
+	5400 5600 3500 5600
+Wire Wire Line
+	4700 3650 4700 3600
+Wire Wire Line
+	4700 3600 5600 3600
+Wire Wire Line
+	5600 3600 5600 5500
+Wire Wire Line
+	5600 5500 3500 5500
+$Comp
+L Device:C C4
+U 1 1 5F940396
+P 5300 2050
+F 0 "C4" H 5415 2096 50  0000 L CNN
+F 1 "10µ 25V" H 5415 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5338 1900 50  0001 C CNN
+F 3 "~" H 5300 2050 50  0001 C CNN
+	1    5300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F94066E
+P 4700 2050
+F 0 "C3" H 4815 2096 50  0000 L CNN
+F 1 "10µ 25V" H 4815 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4738 1900 50  0001 C CNN
+F 3 "~" H 4700 2050 50  0001 C CNN
+	1    4700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F940B7B
+P 4050 2050
+F 0 "C2" H 4165 2096 50  0000 L CNN
+F 1 "10µ 25V" H 4165 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4088 1900 50  0001 C CNN
+F 3 "~" H 4050 2050 50  0001 C CNN
+	1    4050 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 1900
+Connection ~ 4050 2200
+Connection ~ 4700 1900
+Connection ~ 4700 2200
+Connection ~ 5300 1900
+Connection ~ 5300 2200
+Wire Wire Line
+	5300 1900 5950 1900
+Wire Wire Line
+	5300 2200 5950 2200
+Wire Wire Line
+	4700 1900 5300 1900
+Wire Wire Line
+	4700 2200 5300 2200
+Wire Wire Line
+	4050 1900 4700 1900
+Wire Wire Line
+	4050 2200 4700 2200
+$Comp
+L Device:R R6
+U 1 1 5F8DBBD2
+P 6400 5300
+F 0 "R6" V 6193 5300 50  0000 C CNN
+F 1 "160" V 6284 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6330 5300 50  0001 C CNN
+F 3 "~" H 6400 5300 50  0001 C CNN
+	1    6400 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR02
+U 1 1 5F8E3F2D
+P 6900 2600
+F 0 "#PWR02" H 6900 2450 50  0001 C CNN
+F 1 "+3.3V" V 6915 2728 50  0000 L CNN
+F 2 "" H 6900 2600 50  0001 C CNN
+F 3 "" H 6900 2600 50  0001 C CNN
+	1    6900 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5F8E8312
+P 6900 3100
+F 0 "#PWR03" H 6900 2950 50  0001 C CNN
+F 1 "+3.3V" V 6915 3228 50  0000 L CNN
+F 2 "" H 6900 3100 50  0001 C CNN
+F 3 "" H 6900 3100 50  0001 C CNN
+	1    6900 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR04
+U 1 1 5F8E966E
+P 6900 3600
+F 0 "#PWR04" H 6900 3450 50  0001 C CNN
+F 1 "+3.3V" V 6915 3728 50  0000 L CNN
+F 2 "" H 6900 3600 50  0001 C CNN
+F 3 "" H 6900 3600 50  0001 C CNN
+	1    6900 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR06
+U 1 1 5F8ECB24
+P 6900 4600
+F 0 "#PWR06" H 6900 4450 50  0001 C CNN
+F 1 "+3.3V" V 6915 4728 50  0000 L CNN
+F 2 "" H 6900 4600 50  0001 C CNN
+F 3 "" H 6900 4600 50  0001 C CNN
+	1    6900 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR05
+U 1 1 5F8EBA2D
+P 6900 4100
+F 0 "#PWR05" H 6900 3950 50  0001 C CNN
+F 1 "+3.3V" V 6915 4228 50  0000 L CNN
+F 2 "" H 6900 4100 50  0001 C CNN
+F 3 "" H 6900 4100 50  0001 C CNN
+	1    6900 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR07
+U 1 1 5F8EDB87
+P 6900 5100
+F 0 "#PWR07" H 6900 4950 50  0001 C CNN
+F 1 "+3.3V" V 6915 5228 50  0000 L CNN
+F 2 "" H 6900 5100 50  0001 C CNN
+F 3 "" H 6900 5100 50  0001 C CNN
+	1    6900 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 2800 6250 2800
+Wire Wire Line
+	6550 2800 6900 2800
+Wire Wire Line
+	6550 3300 6900 3300
+Wire Wire Line
+	6550 3800 6900 3800
+Wire Wire Line
+	6550 4300 6900 4300
+Wire Wire Line
+	6550 4800 6900 4800
+Wire Wire Line
+	6550 5300 6900 5300
+Wire Wire Line
+	5850 5300 6250 5300
+Wire Wire Line
+	5950 4800 6250 4800
+Wire Wire Line
+	5950 4300 6250 4300
+Wire Wire Line
+	5900 3800 6250 3800
+Wire Wire Line
+	5800 3300 6250 3300
+$EndSCHEMATC

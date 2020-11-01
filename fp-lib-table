@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name thermodrive)(type KiCad)(uri /home/sven/Dokumente/homematic/kicad/thermodrive)(options "")(descr ""))
+  (lib (name Fuse_Holders_and_Fuses)(type KiCad)(uri ${KIPRJMOD}/Fuse_Holders_and_Fuses.pretty)(options "")(descr ""))
+)
